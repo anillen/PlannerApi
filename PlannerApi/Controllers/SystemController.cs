@@ -6,6 +6,10 @@ namespace PlannerApi.Controllers
     [ApiController]
     public class SystemController : ControllerBase
     {
+        /// <summary>
+        /// Get state application
+        /// </summary>
+        /// <returns>State application</returns>
         [HttpGet]
         public IActionResult Index()
         {
